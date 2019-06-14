@@ -727,9 +727,10 @@
   version "0.0.39"
   resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.39.tgz#e177e699ee1b8c22d23174caaa7422644389509f"
 
-"@types/node@*":
-  version "10.0.9"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.0.9.tgz#7cb73a6ef9cf4e41e5354e114e824bfdfd96a6b4"
+"@types/node@^12.0.8":
+  version "12.0.8"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.0.8.tgz#551466be11b2adc3f3d47156758f610bd9f6b1d8"
+  integrity sha512-b8bbUOTwzIY3V5vDTY1fIJ+ePKDUBqt2hC2woVGotdQQhG/2Sh62HOKHrT7ab+VerXAcPyAiTEipPu/FsreUtg==
 
 "@vimeo/eslint-config-player@^5.0.1":
   version "5.0.1"
@@ -775,10 +776,15 @@ acorn@^6.0.1:
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.0.2.tgz#6a459041c320ab17592c6317abbfdf4bbaa98ca4"
 
-acorn@^6.0.4, acorn@^6.0.7, acorn@^6.1.0:
+acorn@^6.0.4, acorn@^6.0.7:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.1.0.tgz#b0a3be31752c97a0f7013c5f4903b71a05db6818"
   integrity sha512-MW/FjM+IvU9CgBzjO3UIPCE2pyEwUsoFl+VGdczOPEdxfGFjuKny/gN54mOuX7Qxmb9Rg9MCn2oKiSUeW+pjrw==
+
+acorn@^6.1.1:
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.1.1.tgz#7d25ae05bb8ad1f9b699108e1094ecd7884adc1f"
+  integrity sha512-jPTiwtOxaHNaAPg/dmrJ/beuzLRnXtB0kQPQ8JpotKJgTB6rX6c8mlf315941pyjBSaPg8NHXS9fhP4u17DpGA==
 
 agent-base@^4.1.0:
   version "4.2.1"
@@ -4514,14 +4520,14 @@ rollup-pluginutils@^2.3.0, rollup-pluginutils@^2.3.3:
     estree-walker "^0.6.0"
     micromatch "^3.1.10"
 
-rollup@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-1.2.2.tgz#960416d098d3dba44bbe64c8db94510d6e568104"
-  integrity sha512-fsn5KJcfSuejjrv8GV7kZNciElqxyzZdUq8rA3e528JsR3ccxrWwoptyUY8GGLlgMFAQMB3dZW8nWF2I1/xrZA==
+rollup@^1.15.4:
+  version "1.15.4"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-1.15.4.tgz#3d6d8cbc8f19651d63acdacf874da2f9ed06c8ba"
+  integrity sha512-EjdjLZ6K5z3J7NkboB+aPVBthZt1CexD7u0IIcc7NYGoXAFyV6AbdKrS8elfwGNrYmuBC5ZDOSOzwH9Ad4PQKg==
   dependencies:
     "@types/estree" "0.0.39"
-    "@types/node" "*"
-    acorn "^6.1.0"
+    "@types/node" "^12.0.8"
+    acorn "^6.1.1"
 
 run-async@^2.2.0:
   version "2.3.0"
